@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Fil d'actualité{% endblock %}
+
+{% block body %}
+{% for post in posts %}
+    <div>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        <h2>Cet article a été publié dans la rubrique {{ post.category.name }}</h2>
+
+    </div>
+{% else %}
+    <p>Aucun article trouvé.</p>
+{% endfor %}
+
+{% endblock %}
