@@ -36,3 +36,26 @@ p{
 .dropdown-menu{
     background: linear-gradient(rgb(55, 136, 37), rgb(86, 207, 72),rgb(55, 136, 37));
 }
+.about h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:greenyellow;
+}
+.about p{
+    font-size: 15px;
+    font-weight:normal;
+    color:beige;
+    padding:15px;
+}
+.about{
+    padding:40px;
+    max-width: 900px;
+}
+// @media screen and (max-width:768px){
+//     .topheader h1{
+//         font-size:48px;
+//     }
+//     .topheader h2{
+//         font-size:36px;
+//     }
+// }
